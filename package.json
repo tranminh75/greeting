@@ -1,0 +1,23 @@
+{
+  "name": "greetings",
+  "version": "1.0.0",
+  "description": "A app that greets user",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tranminh75/greeting.git"
+  },
+  "author": "Minh Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tranminh75/greeting/issues"
+  },
+  "homepage": "https://github.com/tranminh75/greeting#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
