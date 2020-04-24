@@ -1,46 +1,57 @@
 <html>
     <head>
-
+        <link rel="stylesheet" href="info.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <!--MAIN-->
         <main>
             <!--INFO-->
-            <button>Log out</button>
-            <section>
+            <button class="logout">Log out</button>
+
+            <section class="greetings"> 
                 <h1>Good Evening, Minh</h1>
-                <h2>April 7, 2020</h2>
-                <h3>4:28PM</h3>
+                <h2 class= "date">April 7, 2020</h2>
+                <h3 class="time">4:28PM</h3>
             </section>
 
-            <section>
-                <h3>Latest News</h3>
-                <ul>
-                    <li>
-                        <p>Outline.com</p>
-                        <div>
-                             <img src="pp.png">
-                             <p>This is news item number 1</p>
-                        </div>  
-                    </li>
+            <section class="news-category">
+                <h3 class="latest-news">Latest News <i class="notification">3</i></h3>
+                <div class="news-item">
+                    <h5 class="news-item-network">Outline.com</h5>
+                    <div class="news-item-content">
+                        <img class="news-item-image" src="assets/mango.jpeg">
+                        <div class="news-item-text">
+                            <p class="news-item-date"> Date</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus lacus, pellentesque sit amet pellentesque a, laoreet eu lorem. Quisque ac posuere erat. Ut consectetur scelerisque vestibulum. </p>
+                        </div>
+                    </div>  
+                </div>
 
-                    <li>
-                        <p>Outline.com</p>
-                        <div>
-                            <img src="pp.png">
-                            <p>This is news item number 2</p>
-                       </div>  
-                    </li>
+                <div class="news-item">
+                    <h5 class="news-item-network">Outline.com</h5>
+                    <div class="news-item-content">
+                        <img class="news-item-image" src="assets/mango.jpeg">
+                        <div class="news-item-text">
+                            <p class="news-item-date"> Date</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus lacus, pellentesque sit amet pellentesque a, laoreet eu lorem. Quisque ac posuere erat. Ut consectetur scelerisque vestibulum. Mauris vehicula nibh ac lectus varius, blandit blandit nisi dictum. Nulla porttit</p>
+                        </div>
+                    </div>  
+                </div>
 
-                    <li>
-                        <p>Outline.com</p>
-                        <div>
-                            <img src="pp.png">
-                            <p>This is news item number 3</p>
-                       </div>  
-                    </li>
-                </ul>
+                <div class="news-item">
+                    <h5 class="news-item-network">Outline.com</h5>
+                    <div class="news-item-content">
+                        <img class="news-item-image" src="assets/mango.jpeg">
+                        <div class="news-item-text">
+                            <p class="news-item-date"> Date</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec risus lacus, pellentesque sit amet pellentesque a, laoreet eu lorem. Quisque ac posuere erat. Ut consectetur scelerisque vestibulum. Mauris vehicula nibh ac lectus varius, blandit blandit nisi dictum. Nulla porttit</p>
+                        </div>
+                    </div>  
+                </div>
+
+                
             </section>
             <!--INFO-->
         </main>

@@ -1,0 +1,49 @@
+html {
+    font-family: 'Lato', sans-serif;
+    color: #0c01a6;
+}
+
+body {
+    background-image: url(assets/greetings.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+}
+
+main {
+    background-color: #d1adcdcc;
+    margin: 30px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button {
+    border-radius: 5px;
+    right: 20px;
+    top: 20px;
+}
+
+.logout {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+
+}

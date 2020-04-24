@@ -1,16 +1,20 @@
 <html>
     <head>
         <title> Greet me </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
     </head>
     <body>
         <main>
-            <div>
+            <div class="login">
                 <h1> What is your name?</h1>
                 <form>
-                    <input type="text" placeholder="your name"/>
-                    <input type="submit" onclick="login()" value="log in"/>
+                    <input class="input" type="text" placeholder="your name"/>
+                    <input class="button" type="submit" onclick="login()" value="log in"/>
                 </form>
             </div>
         </main>
+        <button class="logout"> log out</button> 
     </body>
 </html>
